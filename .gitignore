@@ -1,0 +1,40 @@
+# Dependências e artefatos de build
+**/node_modules/
+**/.next/
+**/out/
+**/target/
+**/build/
+**/dist/
+**/coverage/
+**/*.tsbuildinfo
+
+# Configuração local e credenciais
+.env
+.env.*
+!.env.example
+/server/src/main/resources/application.properties
+/server/src/main/resources/application-*.properties
+*.secret
+*.credentials
+*credentials*.json
+/secrets/
+
+# Chaves e certificados privados
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Configurações locais de IDE
+.idea/
+*.iml
+
+# Logs e arquivos do sistema
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db

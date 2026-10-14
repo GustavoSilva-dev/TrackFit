@@ -1,0 +1,5 @@
+ALTER TABLE daily_summary
+ADD COLUMN treino_boolean BOOLEAN NOT NULL DEFAULT FALSE;
+
+ALTER TABLE daily_summary
+ADD COLUMN agua_ml INT NOT NULL DEFAULT 0;

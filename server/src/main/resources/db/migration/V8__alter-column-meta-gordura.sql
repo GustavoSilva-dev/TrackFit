@@ -1,0 +1,2 @@
+ALTER TABLE daily_summary
+MODIFY COLUMN meta_gordura DECIMAL(7,2) NOT NULL DEFAULT 70.00;
